@@ -9,12 +9,12 @@ const Solved_ques = () => {
         {
             sub: "Math",
             solved: 29,
-            color:"#8F23C1"
+            color:"#b6459e"
         },
         {
             sub: "Physics",
             solved: 75,
-            color:"#4550b6"
+            color:"#b6459e"
         },
         {
             sub: "Chemistry",
@@ -24,7 +24,7 @@ const Solved_ques = () => {
         {
             sub: "Biology",
             solved: 10,
-            color:"#b64e45"
+            color:"#b6459e"
         },
     ]
     return (
@@ -33,7 +33,7 @@ const Solved_ques = () => {
                 <div className='w-7/12'>
                     {
                         datasub.map((item,id) => (
-                            <div key={id} className='my-2'>
+                            <div key={id} className='my-1'>
                                 <h1 className='text-sm'>{item.sub}</h1>
                                 <ProgressBars bgcolor={item.color} progress={item.solved} />
                             </div>

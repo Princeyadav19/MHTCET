@@ -21,8 +21,8 @@ const ProgressBars = ({ bgcolor, progress }) => {
   }
 
   const progresstext = {
-    "marginRight": "6px",
-    "fontSize": "12px",
+    "marginRight":"3px",
+    "fontSize": "10px",
     color: 'white',
   }
 
