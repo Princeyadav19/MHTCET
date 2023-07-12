@@ -5,10 +5,12 @@ const Contact = () => {
     <>
         <div>
             <div>
-
+                <div>
+                    <h1>Contact us to To get</h1>
+                </div>
             </div>
             <div>
-                
+
             </div>
         </div>
     </>
