@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Landing from './Pages/Landing';
 import Questions from './Components/MCQ_Component/Questions';
 import Landing_Header from './Components/Landing_component/Landing_Header';
+import Papers from './Pages/Papers';
 function App() {
   return (
     <div className='flex justify-between flex-col'>
@@ -14,10 +15,9 @@ function App() {
 
 
       {/* Main pages */}
-      <div className='mx-[10vw] my-10'>
+      <div className='mx-[10vw] my-10 '>
         {/* <Home /> */}
-        {/* <Landing /> */}
-        <Questions />
+        <Landing />
       </div>
       {/* Main pages end */}
 
