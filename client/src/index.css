@@ -18,3 +18,9 @@
 .Landing_page_Button{
     @apply w-5/12 py-2 mx-2 my-2 rounded-full shadow-2xl bg-[#862ACF] text-center text-white hover:scale-110 hover:cursor-pointer 
 }
+.Tags{
+    @apply text-slate-600  p-2 w-2/12 text-center rounded-lg
+}
+.sideMap_Dot{
+    @apply w-1/12 text-center flex justify-center shadow-lg items-center py-1 rounded-full ml-5 mb-4 hover:cursor-pointer
+}

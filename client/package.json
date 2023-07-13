@@ -19,6 +19,7 @@
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.10.0",
     "react-spinners": "^0.13.8",
+    "react-split": "^2.0.14",
     "tailwind-scrollbar": "^3.0.4",
     "use-count-up": "^3.0.1"
   },
